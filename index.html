@@ -6,9 +6,9 @@
 <body>
 
 <div id="form">
-<h1>Hier wird ausgewählt</h1>
+<h1>Hier wird ausgewÃ¤hlt</h1>
 <form action="input_radio.htm">
-  <p>Wählen Sie die Schwierigkeitsstufe aus:</p>
+  <p>WÃ¤hlen Sie die Schwierigkeitsstufe aus:</p>
   <p>
     <input type="radio" name="stufe" value="einfach" onchange="schwierigkeit(1);"> Einfach<br>
     <input type="radio" name="stufe" value="mittel" onchange="schwierigkeit(2);">  Mittel<br>
@@ -18,10 +18,10 @@
 Spielprinzip kurz knapp treffend :<br><br>
 
 
--Samen pflücken um sich Tiere zu zähmen, welche dann automatisch Samen generieren.<br>
--Samen ins Feld einpflanzen um Möhren zu gewinnen, oder aber Samen zerpressen, um daraus Benzin zu gewinnen<br>
--Mit einen "Gemüsedefibrillator" dann diese Möhren zum leben erwecken<br>
--Die ganze Welt mit diesen Möhren einnehmen, da diese dir als Krieger dienen
+-Samen pflÃ¼cken um sich Tiere zu zÃ¤hmen, welche dann automatisch Samen generieren.<br>
+-Samen ins Feld einpflanzen um MÃ¶hren zu gewinnen, oder aber Samen zerpressen, um daraus Benzin zu gewinnen<br>
+-Mit einen "GemÃ¼sedefibrillator" dann diese MÃ¶hren zum leben erwecken<br>
+-Die ganze Welt mit diesen MÃ¶hren einnehmen, da diese dir als Krieger dienen
 </div>
 
 <div id="einfach" style="display:none;">
@@ -36,7 +36,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 	<br>
 	<input type="button" id="preis1" value="-20 Samen" onclick="kaufen(1);">
 	<input type="text" id="1anzahl" value="1" onchange="preisaktualisieren(this)">
-	<input type="button" id ="waldmause" value="Upgrades für Waldmaus" onclick="visible('waldmaus')"/><br>
+	<input type="button" id ="waldmause" value="Upgrades fÃ¼r Waldmaus" onclick="visible('waldmaus')"/><br>
 			<span id="waldmaus" style="display:none;" class="box_white1">
 			<div id="upgrade1text">Die Waldmaus bringt dir nun 2 Samen mehr!</div>
 			<input type="button" id="upgrade1" value="-200 Samen" onclick="upgrade(1);">
@@ -56,7 +56,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 	Produzieren Samen/s :<div id="zweisec" style="float:right;">0</div><br>
 	<input type="button" id="preis2" value="-100 Samen" onclick="kaufen(2);">
 	<input type="text" id="2anzahl" value="1" onchange="preisaktualisieren(this)">
-	<input type="button" id="feldhamsters" value="Upgrades für Feldhamster" onclick="visible('feldhamster')"/><br>
+	<input type="button" id="feldhamsters" value="Upgrades fÃ¼r Feldhamster" onclick="visible('feldhamster')"/><br>
 			<span id="feldhamster" style="display:none;" class="box_white1">
 			<div id="upgrade5text">Der Feldhamster bringt dir nun 8 Samen mehr</div>
 			<input type="button" id="upgrade5" value="-1.500 Samen" onclick="upgrade(5);">
@@ -70,20 +70,20 @@ Spielprinzip kurz knapp treffend :<br><br>
 			<br>
 	<img src="verlaufspiel/eichhoernchen.jpg"id="bilderrechts">
 	<br>
-	Eichhörnchen: Bringt dir <span id="upgradezahl3">10</span> Samen/sec<br>
+	EichhÃ¶rnchen: Bringt dir <span id="upgradezahl3">10</span> Samen/sec<br>
 	Im Besitz<div id="drei" style="float:right;">0</div><br>
 	Produzieren Samen/s :<div id="dreisec" style="float:right;">0</div><br>
 	<input type="button" id="preis3" value="-200 Samen" onclick="kaufen(3)">
 	<input type="text" id="3anzahl" value="1" onchange="preisaktualisieren(this)">
-			<input type="button" id="eichhorn" value="Upgrades für Eichhörnchen" onclick="visible('eichhornchen')"/><br>
+			<input type="button" id="eichhorn" value="Upgrades fÃ¼r EichhÃ¶rnchen" onclick="visible('eichhornchen')"/><br>
 			<span id="eichhornchen" style="display:none;" class="box_white1">
-			<div id="upgrade9text">Das Eichhörnchen bringt dir nun 15 Samen mehr</div>
+			<div id="upgrade9text">Das EichhÃ¶rnchen bringt dir nun 15 Samen mehr</div>
 			<input type="button" id="upgrade9" value="-10.000 Samen" onclick="upgrade(9);">
-			<div id="upgrade10text">Das Eichhörnchen bringt dir nun 25 Samen mehr</div>
+			<div id="upgrade10text">Das EichhÃ¶rnchen bringt dir nun 25 Samen mehr</div>
 			<input type="button" id="upgrade10" value="-1.000.000 Samen" onclick="upgrade(10);">
-			<div id="upgrade11text">Das Eichhörnchen bringt dir nun 35 Samen mehr</div>
+			<div id="upgrade11text">Das EichhÃ¶rnchen bringt dir nun 35 Samen mehr</div>
 			<input type="button" id="upgrade11" value="-15.500.000 Samen" onclick="upgrade(11);">
-			<div id="upgrade12text">Das Eichhörnchen bringt dir nun 50 Samen mehr</div>
+			<div id="upgrade12text">Das EichhÃ¶rnchen bringt dir nun 50 Samen mehr</div>
 			<input type="button" id="upgrade12" value="-100.000.000 Samen" onclick="upgrade(12);">
 			</span>
 			<br>
@@ -94,7 +94,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 	Produzieren Samen/s :<div id="viersec" style="float:right;">0</div><br>
 	<input type="button" id="preis4" value="-400 Samen" onclick="kaufen(4)">
 	<input type="text" id="4anzahl" value="1" onchange="preisaktualisieren(this)">
-	<input type="button" id ="capys" value="Upgrades für Capybara" onclick="visible('capybara')"/><br>
+	<input type="button" id ="capys" value="Upgrades fÃ¼r Capybara" onclick="visible('capybara')"/><br>
 			<span id="capybara" style="display:none;" class="box_white1">
 			<div id="upgrade13text">Das Capybara gibt dir nun 30 Samen mehr</div>
 			<input type="button" id="upgrade13" value="-500.000 Samen" onclick="upgrade(13);">
@@ -124,7 +124,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 	<br>
 	<input type="button" id="preis1" value="-50 Samen" onclick="kaufen(1);">
 	<input type="text" id="1anzahl" value="1" onchange="preisaktualisieren(this)">
-	<input type="button" id ="waldmause" value="Upgrades für Bienenelfe" onclick="visible('waldmaus')"/><br>
+	<input type="button" id ="waldmause" value="Upgrades fÃ¼r Bienenelfe" onclick="visible('waldmaus')"/><br>
 			<span id="waldmaus" style="display:none;" class="box_white1">
 			<div id="upgrade1text">Die Bienenelfe bringt dir nun 1 Samen mehr!</div>
 			<input type="button" id="upgrade1" value="-200 Samen" onclick="upgrade(1);">
@@ -144,7 +144,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 	Produzieren Samen/s :<div id="zweisec" style="float:right;">0</div><br>
 	<input type="button" id="preis2" value="-100 Samen" onclick="kaufen(2);">
 	<input type="text" id="2anzahl" value="1" onchange="preisaktualisieren(this)">
-	<input type="button" id="feldhamsters" value="Upgrades für Ringeltaube" onclick="visible('feldhamster')"/><br>
+	<input type="button" id="feldhamsters" value="Upgrades fÃ¼r Ringeltaube" onclick="visible('feldhamster')"/><br>
 			<span id="feldhamster" style="display:none;" class="box_white1">
 			<div id="upgrade5text">Die Ringeltaube bringt dir nun 2 Samen mehr</div>
 			<input type="button" id="upgrade5" value="-1.500 Samen" onclick="upgrade(5);">
@@ -158,20 +158,20 @@ Spielprinzip kurz knapp treffend :<br><br>
 			<br>
 	<img src="verlaufspiel/pinguin.jpg"id="bilderrechts">
 	<br>
-	Königspinguin: Bringt dir <span id="upgradezahl3">5</span> Samen/sec<br>
+	KÃ¶nigspinguin: Bringt dir <span id="upgradezahl3">5</span> Samen/sec<br>
 	Im Besitz<div id="drei" style="float:right;">0</div><br>
 	Produzieren Samen/s :<div id="dreisec" style="float:right;">0</div><br>
 	<input type="button" id="preis3" value="-400 Samen" onclick="kaufen(3)">
 	<input type="text" id="3anzahl" value="1" onchange="preisaktualisieren(this)">
-			<input type="button" id="eichhorn" value="Upgrades für Königspinguin" onclick="visible('eichhornchen')"/><br>
+			<input type="button" id="eichhorn" value="Upgrades fÃ¼r KÃ¶nigspinguin" onclick="visible('eichhornchen')"/><br>
 			<span id="eichhornchen" style="display:none;" class="box_white1">
-			<div id="upgrade9text">Der Königspinguin bringt dir nun 4 Samen mehr</div>
+			<div id="upgrade9text">Der KÃ¶nigspinguin bringt dir nun 4 Samen mehr</div>
 			<input type="button" id="upgrade9" value="-10.000 Samen" onclick="upgrade(9);">
-			<div id="upgrade10text">Der Königspinguin bringt dir nun 8 Samen mehr</div>
+			<div id="upgrade10text">Der KÃ¶nigspinguin bringt dir nun 8 Samen mehr</div>
 			<input type="button" id="upgrade10" value="-1.000.000 Samen" onclick="upgrade(10);">
-			<div id="upgrade11text">Der Königspinguin bringt dir nun 12 Samen mehr</div>
+			<div id="upgrade11text">Der KÃ¶nigspinguin bringt dir nun 12 Samen mehr</div>
 			<input type="button" id="upgrade11" value="-15.500.000 Samen" onclick="upgrade(11);">
-			<div id="upgrade12text">Der Königspinguin bringt dir nun 16 Samen mehr</div>
+			<div id="upgrade12text">Der KÃ¶nigspinguin bringt dir nun 16 Samen mehr</div>
 			<input type="button" id="upgrade12" value="-100.000.000 Samen" onclick="upgrade(12);">
 			</span>
 			<br>
@@ -182,7 +182,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 	Produzieren Samen/s :<div id="viersec" style="float:right;">0</div><br>
 	<input type="button" id="preis4" value="-800 Samen" onclick="kaufen(4)">
 	<input type="text" id="4anzahl" value="1" onchange="preisaktualisieren(this)">
-	<input type="button" id ="capys" value="Upgrades für Harpie" onclick="visible('capybara')"/><br>
+	<input type="button" id ="capys" value="Upgrades fÃ¼r Harpie" onclick="visible('capybara')"/><br>
 			<span id="capybara" style="display:none;" class="box_white1">
 			<div id="upgrade13text">Die Harpie gibt dir nun 8 Samen mehr</div>
 			<input type="button" id="upgrade13" value="-500.000 Samen" onclick="upgrade(13);">
@@ -213,7 +213,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 	<br>
 	<input type="button" id="preis1" value="-100 Samen" onclick="kaufen(1);">
 	<input type="text" id="1anzahl" value="1" onchange="preisaktualisieren(this)">
-	<input type="button" id ="waldmause" value="Upgrades für Katze" onclick="visible('waldmaus')"/><br>
+	<input type="button" id ="waldmause" value="Upgrades fÃ¼r Katze" onclick="visible('waldmaus')"/><br>
 			<span id="waldmaus" style="display:none;" class="box_white1">
 			<div id="upgrade1text">Die Katze bringt dir nun 1 Samen mehr!</div>
 			<input type="button" id="upgrade1" value="-2.000 Samen" onclick="upgrade(1);">
@@ -233,7 +233,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 	Produzieren Samen/s :<div id="zweisec" style="float:right;">0</div><br>
 	<input type="button" id="preis2" value="-400 Samen" onclick="kaufen(2);">
 	<input type="text" id="2anzahl" value="1" onchange="preisaktualisieren(this)">
-	<input type="button" id="feldhamsters" value="Upgrades für Hund" onclick="visible('feldhamster')"/><br>
+	<input type="button" id="feldhamsters" value="Upgrades fÃ¼r Hund" onclick="visible('feldhamster')"/><br>
 			<span id="feldhamster" style="display:none;" class="box_white1">
 			<div id="upgrade5text">Der Hund bringt dir nun 2 Samen mehr</div>
 			<input type="button" id="upgrade5" value="-15.000 Samen" onclick="upgrade(5);">
@@ -252,7 +252,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 	Produzieren Samen/s :<div id="dreisec" style="float:right;">0</div><br>
 	<input type="button" id="preis3" value="-800 Samen" onclick="kaufen(3)">
 	<input type="text" id="3anzahl" value="1" onchange="preisaktualisieren(this)">
-			<input type="button" id="eichhorn" value="Upgrades für Elefant" onclick="visible('eichhornchen')"/><br>
+			<input type="button" id="eichhorn" value="Upgrades fÃ¼r Elefant" onclick="visible('eichhornchen')"/><br>
 			<span id="eichhornchen" style="display:none;" class="box_white1">
 			<div id="upgrade9text">Der Elefant bringt dir nun 4 Samen mehr</div>
 			<input type="button" id="upgrade9" value="-100.000 Samen" onclick="upgrade(9);">
@@ -266,20 +266,20 @@ Spielprinzip kurz knapp treffend :<br><br>
 			<br>
 	<img src="verlaufspiel/eisbaer.jpg" id="bilderrechts">
 	<br>
-	Eisbär : Bringt dir <span id="upgradezahl4">7</span> Samen/sec<br>
+	EisbÃ¤r : Bringt dir <span id="upgradezahl4">7</span> Samen/sec<br>
 	Im Besitz<div id="vier" style="float:right;">0</div><br>
 	Produzieren Samen/s :<div id="viersec" style="float:right;">0</div><br>
 	<input type="button" id="preis4" value="-1200 Samen" onclick="kaufen(4)">
 	<input type="text" id="4anzahl" value="1" onchange="preisaktualisieren(this)">
-	<input type="button" id ="capys" value="Upgrades für Eisbär" onclick="visible('capybara')"/><br>
+	<input type="button" id ="capys" value="Upgrades fÃ¼r EisbÃ¤r" onclick="visible('capybara')"/><br>
 			<span id="capybara" style="display:none;" class="box_white1">
-			<div id="upgrade13text">Der Eisbär bringt dir nun 8 Samen mehr</div>
+			<div id="upgrade13text">Der EisbÃ¤r bringt dir nun 8 Samen mehr</div>
 			<input type="button" id="upgrade13" value="-5.000.000 Samen" onclick="upgrade(13);">
-			<div id="upgrade14text">Der Eisbär bringt dir nun 16 Samen mehr</div>
+			<div id="upgrade14text">Der EisbÃ¤r bringt dir nun 16 Samen mehr</div>
 			<input type="button" id="upgrade14" value="-500.000.000 Samen" onclick="upgrade(14);">
-			<div id="upgrade15text">Der Eisbär bringt dir nun 24 Samen mehr</div>
+			<div id="upgrade15text">Der EisbÃ¤r bringt dir nun 24 Samen mehr</div>
 			<input type="button" id="upgrade15" value="-5.000.000.000 Samen" onclick="upgrade(15);">
-			<div id="upgrade16text">Der Eisbär bringt dir nun 32 Samen mehr</div>
+			<div id="upgrade16text">Der EisbÃ¤r bringt dir nun 32 Samen mehr</div>
 			<input type="button" id="upgrade16" value="-50.000.000.000 Samen" onclick="upgrade(16);">
 			</span>
 			<br>
@@ -316,7 +316,7 @@ Spielprinzip kurz knapp treffend :<br><br>
   	<td><img src="verlaufspiel/krieger.jpg" id="bilderlinks"></td>
   </tr>
    <tr>
-    <td><div id="amoerchen">Möhren: 0</div></td>
+    <td><div id="amoerchen">MÃ¶hren: 0</div></td>
      <td><div id="akrieger">Krieger: 0</div></td>
   </tr>
 </table>
@@ -332,13 +332,13 @@ Spielprinzip kurz knapp treffend :<br><br>
 	
 	<input type="button" value="?" id="toaster" onclick="visible('c')">
 	<div id="toastersinn" style="display:none;"><br>	
-	Der GemüseDefibrillator erweckt jede Sekunde einen Samen zum Leben!<br>
-	Dieser Samen wächst zu einem Gemüse heran, welches dir nun als Krieger dienen wird!
-	Je nach ausrichtung des Defibrillators wächst eine andere Sorte heran.<br><br>
+	Der GemÃ¼seDefibrillator erweckt jede Sekunde einen Samen zum Leben!<br>
+	Dieser Samen wÃ¤chst zu einem GemÃ¼se heran, welches dir nun als Krieger dienen wird!
+	Je nach ausrichtung des Defibrillators wÃ¤chst eine andere Sorte heran.<br><br>
 	</div>
 	<input type="button" value="An" id="an" onclick="toast('an')"> 
 	<input type="button" value="Aus" id ="aus "onclick="toast('aus')">
-	<input type="button" value="Ausrichten" id="ausrichtung" style="display:none; onclick="visible('ausrichten')"
+	<input type="button" value="Ausrichten" id="ausrichtung" style="display:none;" onclick="visible('ausrichten')">
 	<br>
 	<div id="toasterausrichtung" style="display:none; width:100%"><br>	
 	 <div id="boxInhaltRechts2">
@@ -371,7 +371,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 			<br>
 		</span>
 	<span id ="moehrenpossible">
-	<input type="button" onclick="pflanzen()" value="Samen einpflanzen um Möhren zu gewinnen" />
+	<input type="button" onclick="pflanzen()" value="Samen einpflanzen um MÃ¶hren zu gewinnen" />
 	<input type="text" id="zahlpflanzen" />
 	<div id="timer"></div>
 	<br>
@@ -385,8 +385,8 @@ Spielprinzip kurz knapp treffend :<br><br>
 
 <div id="boxMitte" style ="display:none;">
 <div id="inhaltMitte">
-<div id="menü">
-<input id="menu" type="button" value ="Menü" onclick="visible('menu')" style="float:left"> 
+<div id="menÃ¼">
+<input id="menu" type="button" value ="MenÃ¼" onclick="visible('menu')" style="float:left"> 
 <div id="menumenu" style="display:none;">
 <input type="button" value ="Export Safe" onclick="safe(1)" id="menu">
 <input type="button" value ="Import Safe" onclick="safe(2)" id="menu">
@@ -404,7 +404,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<input type="text" id="samensell"/>
 		<br>
 		<span id="moehrensell">
-		<input type="button" value="Möhren in Gold umtauschen" onclick="sell('m')"/>
+		<input type="button" value="MÃ¶hren in Gold umtauschen" onclick="sell('m')"/>
 		<input type="text" id="moehrensell1"/>
 		</span>
 		<br>
@@ -425,9 +425,9 @@ Spielprinzip kurz knapp treffend :<br><br>
 	<input type="button" id="buttonMitte" value ="?" onclick="visible('x')" style="display:block">
 	<div id="angrifftext" style="display:none;">
 	<br><br><br>
-	Du entdeckst eine benachbarte Stadt und hast nun die möglichkeit sie anzugreifen!<br>
-				Solltest du sie 4 mal erfolgreich geplündert haben, wird die Stadt sich deiner anschließen!<br>
-				Sobald du eine Stadt 3 mal geplündert hast, wird diese in der Regel zurück angreifen!<br><br>
+	Du entdeckst eine benachbarte Stadt und hast nun die MÃ¶glichkeit sie anzugreifen!<br>
+				Solltest du sie 4 mal erfolgreich geplÃ¼ndert haben, wird die Stadt sich deiner anschlieÃŸen!<br>
+				Sobald du eine Stadt 3 mal geplÃ¼ndert hast, wird diese in der Regel zurÃ¼ck angreifen!<br><br>
 				</div>
 				
 						<div id="dungeonbutton1n">Paderborn entdecken:
@@ -445,7 +445,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<br>
 		<br>
 		</div>
-						<div id="dungeonbutton4n" style="display:none;">Köln entdecken:
+						<div id="dungeonbutton4n" style="display:none;">KÃ¶ln entdecken:
 		<input type="button" id="dungeonbutton4k" value="-10.000.000 Samen" onclick="kaufen(8)" style="display:none;">
 		<br>
 		<br>
@@ -505,7 +505,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<br>
 		<input type ="button" value="Paderborn angreifen" onclick="dungeon('1')"/>
 		<input type ="text" id="anzahlsoldatens"/><br>
-		Wähle die Anzahl deiner Soldaten, die diese Stadt angreifen sollen!
+		WÃ¤hle die Anzahl deiner Soldaten, die diese Stadt angreifen sollen!
 		<br>
 		</span>
 		
@@ -514,7 +514,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<br>
 		<input type ="button" value="Bielefeld angreifen" onclick="dungeon('2')"/>
 		<input type ="text" id="anzahlsoldatenm"/><br>
-		Wähle die Anzahl deiner Soldaten, die diese Stadt angreifen sollen!
+		WÃ¤hle die Anzahl deiner Soldaten, die diese Stadt angreifen sollen!
 		<br>
 		</span>
 	
@@ -523,16 +523,16 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<br>
 		<input type ="button" value="Duisburg angreifen" onclick="dungeon('3')"/>
 		<input type ="text" id="anzahlsoldatenho"/><br>
-		Wähle die Anzahl deiner Soldaten, die diese Stadt angreifen sollen!
+		WÃ¤hle die Anzahl deiner Soldaten, die diese Stadt angreifen sollen!
 		<br>
 		</span>
 	
 		<span id="dungeon4" style="display:none";>
 		<br>
 		<br>
-		<input type ="button" value="Köln angreifen" onclick="dungeon('4')"/>
+		<input type ="button" value="KÃ¶ln angreifen" onclick="dungeon('4')"/>
 		<input type ="text" id="anzahlsoldatenhe"/><br>
-		Wähle die Anzahl deiner Soldaten, die diese Stadt angreifen sollen!
+		WÃ¤hle die Anzahl deiner Soldaten, die diese Stadt angreifen sollen!
 		<br>
 		</span>
 
@@ -541,7 +541,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<br>
 		<input type ="button" value="Niedersachsen angreifen" onclick="dungeon('5')"/>
 		<input type ="text" id="anzahlsoldatennieder"/><br>
-		Wähle die Anzahl deiner Soldaten, die dieses Bundesland angreifen sollen!
+		WÃ¤hle die Anzahl deiner Soldaten, die dieses Bundesland angreifen sollen!
 		<br>
 		</span>
 	
@@ -550,7 +550,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<br>
 		<input type ="button" value="Norddeutschland angreifen" onclick="dungeon('6')"/>
 		<input type ="text" id="anzahlsoldatennorden"/><br>
-		Wähle die Anzahl deiner Soldaten, die diesen Teil Deutschlands angreifen sollen!
+		WÃ¤hle die Anzahl deiner Soldaten, die diesen Teil Deutschlands angreifen sollen!
 		<br>
 		</span>
 	
@@ -559,7 +559,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<br>
 		<input type ="button" value="Sueddeutschland angreifen" onclick="dungeon('7')"/>
 		<input type ="text" id="anzahlsoldatensueden"/><br>
-		Wähle die Anzahl deiner Soldaten, die diesen Teil Deutschlands angreifen sollen!
+		WÃ¤hle die Anzahl deiner Soldaten, die diesen Teil Deutschlands angreifen sollen!
 		</span>
 	
 		<span id="dungeon8" style="display:none";>
@@ -567,7 +567,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<br>
 		<input type ="button" value="Europa angreifen" onclick="dungeon('8')"/>
 		<input type ="text" id="anzahlsoldateneuropa"/><br>
-		Wähle die Anzahl deiner Soldaten, die diesen Kontinent angreifen sollen!
+		WÃ¤hle die Anzahl deiner Soldaten, die diesen Kontinent angreifen sollen!
 		</span>
 
 		<span id="dungeon9" style="display:none";>
@@ -575,7 +575,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<br>
 		<input type ="button" value="Asien angreifen" onclick="dungeon('9')"/>
 		<input type ="text" id="anzahlsoldatenasien"/><br>
-		Wähle die Anzahl deiner Soldaten, die diesen Kontinent angreifen sollen!
+		WÃ¤hle die Anzahl deiner Soldaten, die diesen Kontinent angreifen sollen!
 		</span>
 	
 		<span id="dungeon10" style="display:none";>
@@ -583,7 +583,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<br>
 		<input type ="button" value="Afrika angreifen" onclick="dungeon('10')"/>
 		<input type ="text" id="anzahlsoldatenafrika"/><br>
-		Wähle die Anzahl deiner Soldaten, die diesen Kontinent angreifen sollen!
+		WÃ¤hle die Anzahl deiner Soldaten, die diesen Kontinent angreifen sollen!
 		</span>
 	
 		<span id="dungeon11" style="display:none";>
@@ -591,7 +591,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<br>
 		<input type ="button" value="Australien angreifen" onclick="dungeon('11')"/>
 		<input type ="text" id="anzahlsoldatenaustralien"/><br>
-		Wähle die Anzahl deiner Soldaten, die diesen Kontinent angreifen sollen!
+		WÃ¤hle die Anzahl deiner Soldaten, die diesen Kontinent angreifen sollen!
 		</span>
 	
 		<span id="dungeon12" style="display:none";>
@@ -599,7 +599,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<br>
 		<input type ="button" value="Amerika angreifen" onclick="dungeon('12')"/>
 		<input type ="text" id="anzahlsoldatenamerika"/><br>
-		Wähle die Anzahl deiner Soldaten, die diesen Kontinent angreifen sollen!
+		WÃ¤hle die Anzahl deiner Soldaten, die diesen Kontinent angreifen sollen!
 		</span>
 		
 		<span id="dungeon13" style="display:none";>
@@ -607,7 +607,7 @@ Spielprinzip kurz knapp treffend :<br><br>
 		<br>
 		<input type ="button" value="Mond angreifen" onclick="dungeon('13')"/>
 		<input type ="text" id="anzahlsoldatenmond"/><br>
-		Wähle die Anzahl deiner Soldaten, die diesen Planeten angreifen sollen!
+		WÃ¤hle die Anzahl deiner Soldaten, die diesen Planeten angreifen sollen!
 		</span>
 		</span>	
 		
